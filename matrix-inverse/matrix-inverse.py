@@ -12,9 +12,9 @@ def matrix_inverse(A):
         return None
 
     det_A= np.linalg.det(A)
-
     if abs(det_A) < 1e-10 :
-        return None
+         return None
+ 
 
     A_inv = np.linalg.inv(A)
 
